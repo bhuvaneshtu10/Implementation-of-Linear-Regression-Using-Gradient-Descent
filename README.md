@@ -21,7 +21,7 @@ Developed by: BHUVANESHWARAN TU
 RegisterNumber:  24009351
 */
 ```
-import numpy as np
+~import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 def linear_regression(X1,y,learning_rate=0.01,num_iters=1000):
@@ -48,7 +48,7 @@ new_Scaled=scaler.fit_transform(new_data)
 prediction=np.dot(np.append(1,new_Scaled),theta)
 prediction=prediction.reshape(-1,1)
 pre=scaler.inverse_transform(prediction)
-print(f"Predicted Value: {pre}")
+print(f"Predicted Value: {pre}")~
 ## Output:
 
 ![Screenshot 2024-11-12 175439](https://github.com/user-attachments/assets/7a76559b-e64f-43b5-985c-7cb0d4a9eb79)
